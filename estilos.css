@@ -1,0 +1,74 @@
+body { background-image: url(https://cdn.wallpapersafari.com/41/9/h0k9zK.jpg);
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+}
+
+h1{color: rgb(51, 133, 198);}
+
+table { margin: 0 auto;
+color: yellow;}
+
+table td{text-align: center;
+  padding: 10px;
+}
+h3{margin: 2px, auto;}
+
+
+
+table td:hover{
+  background: RGBA(51, 133, 198, 0.5);
+  cursor: pointer;
+}
+button:hover{ cursor:pointer;
+  text-decoration:underline;
+  color:#00f;}
+
+
+
+.container {
+  margin: auto;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+  padding: 5px;
+  background: rgba(5, 15, 15, 0.5);
+  color: yellow;
+}
+.columna1,
+.columna2,
+.columna3,
+.columna4{
+  width: 300%;
+  color: #FF8000;
+  border: 2px solid #f2f2f2;
+  margin: 2px auto;
+}
+footer {
+		margin:10px;
+		text-align:center;
+		clear:both;
+    color: yellow;
+  }
+@media (min-width: 800px) {
+  .columna2,
+  .columna3,
+  .columna4 {
+    width: 40%;
+  }
+}
+@media (min-width: 1080px) {
+  .columna1 { width: 98%; }
+  .columna2 { width: 31%; }
+  .columna3,
+  .columna4 {
+    width: 31%;
+  }
+  .container {
+    width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+    color: yellow;
+  }
+}
